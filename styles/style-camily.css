@@ -57,6 +57,60 @@ main{
     height: 100vh;
 }
 
+/* Background*/
+
+.div-pai {
+    display: flex;
+    align-items: center;
+       
+}
+ .sec1 {
+    background-image: url("../image/flecha.png");
+    background-repeat: no-repeat;
+    background-size: 66.5em 31em;
+    height: 100vh;
+ }
+
+.imagem {
+    display: flex;
+    height: 28em;
+    width: 50em;
+    
+}
+
+.coluna {
+    display: flex;
+    margin-top: 1em;
+}
+
+.filha1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.div-filha1 {
+    margin: 10em;
+}
+  
+button {
+    width: 12em ;
+    height: 3em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5em;
+}
+
+button:hover {
+    background-color: #ff4555;
+    color: whitesmoke;
+}
+
+
+
+
+
 /* Frete */
 
 
@@ -106,7 +160,7 @@ main{
 
 .container-footer{
     display: flex;
-    margin: 0 10% 0 10%;
+    margin: 100% 10% 0 10%;
     padding-bottom: 8em;
 }
 
@@ -159,6 +213,12 @@ main{
 }
 
 @media screen and (max-width: 414px){
+    
+    .sec1 {
+        background-size: 26em 40em;
+     }
+    
+    
     .container-header{
         width: 100vw;
         display: grid;
@@ -168,6 +228,13 @@ main{
         text-align: center;
 
     }
+
+    .container-logo{
+        justify-content: center;
+        color: hotpink;
+    }
+
+
     .container-nav-menu {
         justify-content: center;
     }
@@ -192,12 +259,22 @@ main{
         justify-content: center;
         text-align: center;
         align-items: center;
+        margin-bottom: 15em;
     }
     .container-frete2 img{
         width: 3em;
         height: 3em;
         margin: 0;
     }
+
+    .container-frete2 p{
+        font-size: 1.4em;
+        white-space: nowrap;
+        margin-left: 1em;
+    }
+
+
+
     #img3,
     #img4 {
         padding: 0;
@@ -207,11 +284,15 @@ main{
     }
     .container-footer {
         margin: 0 auto;
-        width: 100vw;
+        width: 90vw;
         justify-content: center;
         text-align: center;
     }
 
+    .container-footer{
+        display: flex;
+        margin: 660% 10% 0 8%;
+    }
 
 
 }
