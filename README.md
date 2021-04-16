@@ -1,7 +1,7 @@
 ##  <h1 align="center">Landingpage 4Food 📟 👨‍💻</h1>
 
 ##  <p><h2 align="center">Página estática desenvolvida no primeiro trabalho em grupo do Bootcamp da [Labenu](https://www.labenu.com.br/ "Labenu") </h2> </p>
-## <p> Você pode aceesar o site clicando [aqui!](http://elfin-attention.surge.sh/) </p>
+## <p> Você pode acessar o site clicando [aqui!](http://elfin-attention.surge.sh/) </p>
 
 
 ![max-size](https://user-images.githubusercontent.com/75874462/115069081-7ac0c180-9ec9-11eb-8769-0ecbc2839158.png)<br>
