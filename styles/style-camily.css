@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: initial;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+
+
+.container-header{
+    background-color: white;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container-logo{
+    margin-left:10%;
+    margin-right:10%;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+
+.container-header img{
+    width: 3%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+.container-nav-menu a{
+    font-size: 15px;
+}
+
+.container-nav-menu img{
+    width: 25px;
+}
+
+.container-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40em;
+    margin-right: 10%;
+}
+
+
+main{
+    height: 100vh;
+}
+
+/* Frete */
+
+
+
+.container-frete{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+.container-frete p:nth-child(2){
+    margin-left: 1%;
+}
+
+
+.container-frete2{
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    padding-top: 3em;
+}
+
+.container-frete2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.container-frete2 p{
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+
+
+
+
+
+/* Footer*/
+
+.container-footer{
+    display: flex;
+    margin: 0 10% 0 10%;
+    padding-bottom: 8em;
+}
+
+
+
+.container-footer h3 h4{
+    color:rgb(56, 56, 56)
+}
+
+.container-footer h4{
+    font-size: 2em;
+}
+
+
+.footer-grid1 img{
+    padding-top: 1em;
+    margin-left: 1em;
+    width: 25px;
+}
+
+.footer-grid1{
+    width: 20em;
+}
+
+.footer-grid2{
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-grid3{
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-grid4{
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-footer p{
+    margin-top: 2em ;
+    color: rgb(133, 133, 133);
+
+}
+
+@media screen and (max width: 414px){
+
+
+
+
+
+
+
+
+}
