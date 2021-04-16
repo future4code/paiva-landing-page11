@@ -158,12 +158,59 @@ main{
 
 }
 
-@media screen and (max width: 414px){
+@media screen and (max-width: 414px){
+    .container-header{
+        width: 100vw;
+        display: grid;
+        grid: 1fr 1fr / 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 
-
-
-
-
+    }
+    .container-nav-menu {
+        justify-content: center;
+    }
+    .container-nav-menu a{
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    .container-nav-menu img{
+        display: none;
+    }
+    .container-frete {
+        width: 100vw;
+    }
+    .container-frete p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .container-frete2 {        
+        font-size: 1em;
+        display: grid;
+        grid: 1fr 1fr/1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .container-frete2 img{
+        width: 3em;
+        height: 3em;
+        margin: 0;
+    }
+    #img3,
+    #img4 {
+        padding: 0;
+    }
+    .container-frete-img3 {
+        padding-top: 1.6em;
+    }
+    .container-footer {
+        margin: 0 auto;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+    }
 
 
 
