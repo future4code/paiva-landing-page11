@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div-pai {
+    display: flex;
+    align-items: center;
+    margin: 5em;
+}
+
+.img-copo {
+    display: flex;
+    margin: 1em;
+}
+
+.imagem {
+    display: flex;
+}
+
+.filha1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coluna {
+    margin: 2em;
+}
+
+button {
+    width: 12em ;
+    height: 3em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5em;
+
+}
+
+button:hover {
+    background-color: #ff4555;
+    color: whitesmoke;
+}
+
+.sec1 {
+}
+
+
+@media screen and {
+    
+}
